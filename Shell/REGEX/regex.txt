@@ -1,0 +1,32 @@
+###################    commands
+
+ls
+ 1930  ls *.jpg
+ 1931  ls ?.pdf
+ 1932  touch .pdf
+ 1933  ls ?.pdf
+ 1934  ls
+ 1935  ls -a ?.pdf
+ 1936  ls -a
+ 1937  ls -a ?.pdf
+ 1938  touch _.pdf
+ 1939  ls -a ?.pdf
+ 1940  ls  ?.pdf
+ 1941  ls [ab] *
+ 1942  ls [ab]*
+ 1943  ls [abc]*
+ 1944  ls [abcee]*
+ 1945  ls [abce]*
+ 1946  ls [abces]*
+ 1947  shopt -s extglob
+ 1948  shopt extglob
+ 1949  ls ?(*.jpg|*.gif)
+ 1950  touch xx.gif
+ 1951  ls ?(*.jpg|*.gif)
+ 1952  ls !(*.jpg|*.gif)
+ 1953  ls *.pdf
+ 1954  ls ?(e).pdf
+ 1955  ls *(e).pdf
+ 1956  ls +(e).pdf
+ 1957  ls @(e).pdf
+
